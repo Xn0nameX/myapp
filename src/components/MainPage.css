@@ -1,0 +1,217 @@
+
+
+.main {
+    font-family: inherit, sans-serif;
+    width: 100%;
+  }
+  
+  .logo {
+    font-weight: bold;
+  }
+  
+  .cafe-name {
+    margin-right: auto;
+    margin-left: 15px;
+    font-size: 55px;
+    font-family: 'Edwardian Script ITC', sans-serif; /* Замените 'Arial' на ваш шрифт */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  .cart-icon {
+    font-size: 1.5em;
+  }
+  .cart-link {
+    color: black;
+  }
+
+  .image_kafe {
+    width: 150px;
+    height: 150px;
+  }
+  .image_korzina {
+    width: 30px;
+    height: 30px;
+  }
+  .separator {
+    border-top: 0px solid #000;
+  }
+
+  .separator_footer {
+    border-top: 0px solid black;
+    margin-top: 6px;
+  }
+  .logo {
+    margin-left: 50px;
+  }
+  
+  nav ul {
+    margin-right: 50px;
+  }
+
+  nav ul li a {
+    font-size: 25px;
+  }
+
+  /* Новые стили */
+.other-font {
+    font-family: inherit; /* Наследовать шрифт от родителя */
+    font-weight: bold;
+    color: #670319; /* Цвет близкий к цвету кофе */
+  }
+  
+  .bigger-size {
+    font-size: 18px; /* Больший размер шрифта */
+    font-weight: bold;
+  }
+
+  header nav ul li a {
+    font-size: 25px;
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #670319; /* Цвет близкий к цвету кофе */
+  }
+  
+  /* Если у вас возникает проблема с наследованием или подчёркивание не исчезает, то можно добавить более точные стили */
+  header nav ul li a:link, /* Обычное состояние ссылок */
+  header nav ul li a:visited { /* Посещенные ссылки */
+    text-decoration: none;
+    color: #670319;
+  }
+  
+  header nav ul li a:hover, /* Наведение */
+  header nav ul li a:active { /* Кликнутое состояние */
+    text-decoration: none;
+    color: #670319;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('./backmainpage.jpg');
+    background-size: cover; /* Растягивает картинку, чтобы она занимала весь экран */
+    background-position: center; /* Центрирует фон */
+  }
+  
+  .wrapper {
+    display: flex;
+    flex: 1; /* Занимает вторую половину страницы */
+    gap: 20px;
+    align-items: stretch;
+  }
+  
+  .main-rectangle {
+    border-radius: 15px;
+    padding: 20px;
+  }
+  
+  .big-rectangle {
+    flex: 1; /* Занимает первую половину страницы */
+    background-image: url('./history.jpg');
+    background-size: cover; /* Растягивает картинку, чтобы она занимала весь экран */
+    background-position: center; /* Центрирует фон */
+    margin-top: 15px;
+    height: 377px;
+  }
+  .big-rectangle p {
+    font-size: 19px;
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #670319; /* Цвет близкий к цвету кофе */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); /* Горизонтальное смещение, вертикальное смещение, размытие и цвет тени */
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+  .big-rectangle h2 {
+    color: #670319; /* Цвет близкий к цвету кофе */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); /* Горизонтальное смещение, вертикальное смещение, размытие и цвет тени */
+  }
+  
+  
+  .small-rectangle {
+    flex: 1; /* Занимает четверть страницы */
+    background-image: url('./history.jpg');
+    background-size: cover; 
+    background-position: center; 
+    color: #670319; /* Цвет близкий к цвету кофе */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); /* Горизонтальное смещение, вертикальное смещение, размытие и цвет тени */
+    margin-top :15px;
+    height: 500px;
+  }
+  .small-rectangle h3{
+    color: #000000;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  }
+
+  .footer {
+    background-color: #7A5B34; /* кофейный коричневый */
+    color: white;
+    padding: 20px;
+  }
+  
+  .coffee-info {
+    margin-bottom: 20px;
+  }
+  
+  .contact-info {
+    font-size: 18px;
+  }
+  .login-button {
+    position: absolute;
+    top: 0;
+    right: 100px;
+    background-color: rgb(173, 63, 63); /* Цвет кофе */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+ header, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-image: url('./header.jpg');
+    background-size: cover; /* Растягивает картинку, чтобы она заняла весь блок */
+    background-position: center; /* Центрирует фон */
+    position: relative;
+    width: 100%; /* Растягиваем header на всю ширину страницы */
+    margin: 0; /* Убираем внешние отступы */
+    box-sizing: border-box;
+  }
+
+  .login-section {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .reservation-text {
+    margin-left: 10px; /* Регулирует расстояние между текстом и кнопкой входа */
+  }
+  .menu-link-button {
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    color: #7A5B34;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+  }

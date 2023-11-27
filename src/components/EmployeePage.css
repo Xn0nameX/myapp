@@ -1,0 +1,31 @@
+body {
+    background: #fff; /* Чисто белый фон для всей страницы */
+    margin: 0; /* Убираем отступы по умолчанию для body */
+  }
+  
+  .container {
+    margin-right: 1100px; /* Центрируем контейнер, если это необходимо */
+  }
+  
+  /* Сдвигаем все элементы к левому краю */
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    list-style: none; /* Убираем маркеры списка */
+  }
+  .login-button {
+    position: absolute;
+    top: 0;
+    right: 100px;
+    background-color: rgb(173, 63, 63); /* Цвет кофе */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }

@@ -1,0 +1,15 @@
+
+  
+  .user-main {
+    /* Стили для основного содержимого страницы личного кабинета */
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .user-info,
+  .user-orders {
+    /* Стили для блоков с информацией о пользователе и заказами */
+    width: 45%;
+  }
+  

@@ -1,0 +1,35 @@
+.menu-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 20px; /* Добавим отступ по бокам для .menu-section */
+    box-sizing: border-box; /* Учтем padding внутри элемента при расчете ширины */
+  }
+  
+  .menu-item {
+    flex: 0 0 calc(33.333% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+  }
+  
+  .menu-item img {
+    max-width: 100%; /* Уберем фиксированную ширину для изображения */
+    height: auto;
+    border-radius: 10px; /* Добавим закругление углов для изображения */
+  }
+  
+  .add-to-cart-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #45a049;
+  }
+  
+
+  

@@ -1,0 +1,62 @@
+
+
+.cart-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .cart-item {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .item-name {
+    flex: 2;
+  }
+  
+  .item-quantity,
+  .item-price {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .total {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .total-label {
+    font-weight: bold;
+  }
+  
+  .order-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .order-button:hover {
+    background-color: #45a049;
+  }
+  
+
+  .order-placed-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    z-index: 1000; /* Число может быть любым, просто должно быть выше, чем z-index для основного контента */
+  }
