@@ -58,9 +58,9 @@ function LoginPage() {
           login({ name: userFirstName, lastName: userLastName, userDob: userdob, PhoneNumber: phoneNumber, userid: userId,roleId: userRoleId});
   
           if (userRoleId === 3) {
-            navigate('/employee');
+            navigate('/EmployeePage');
           }
-          if (userRoleId === 2) {
+          else if (userRoleId === 2) {
             navigate('/AdminPanel');
           } 
           else {

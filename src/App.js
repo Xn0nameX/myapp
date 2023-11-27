@@ -30,7 +30,7 @@ function App() {
       <AuthProvider>
         <div className="App">
           <Routes>
-            <Route path="/employee" element={<EmployeePage />} />
+            <Route path="/EmployeePage" element={<EmployeePage />} />
             <Route path="/AdminPanel" element={<AdminPanel />} />
             <Route path="/" element={<MainPage />} />
             <Route path="/LoginPage/*" element={<LoginPage />} />
