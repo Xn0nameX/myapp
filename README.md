@@ -11,7 +11,7 @@ myapp - фронтентд часть веб-сайта <br>
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" title="css3" alt="css" width="40" height="40"/>
   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-plain.svg" title="javascript" alt="javascript" width="40" height="40"/>
   <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" title="react" alt="react" width="40" height="40"/>
-  <img src="[https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg](https://wsofter.com/wp-content/uploads/2022/05/net_core_logo.svg.png)" title="aspnet" alt="aspnet" width="40" height="40"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg](https://wsofter.com/wp-content/uploads/2022/05/net_core_logo.svg.png" title="aspnet" alt="aspnet" width="40" height="40"/>
 </div>
 
 # Авторы
