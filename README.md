@@ -1,20 +1,24 @@
-Веб-сайт кофейни
-Курсовая работа по предметной области серавис кофейни
+# Веб-сайт кофейни
+Курсовая работа по предметной области Сервис кофейни
+# Содержание
+myapp - фронтентд часть веб-сайта <br>
+----- - бэкенд часть веб-сайта <br>
+СкриптыБД - PSql скрипты для создания базы данных и вставкой тестовых данных <br>
+# Технологии
+<div>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg" title="git" alt="git" width="40" height="40"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="html5" alt="html5" width="40" height="40"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" title="css3" alt="css" width="40" height="40"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/java/javascript-plain.svg" title="css3" alt="css" width="40" height="40"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/spring/react-original.svg" title="css3" alt="css" width="40" height="40"/>
+</div>
 
-Содержание
-myapp - фронтентд часть веб-сайта
------ - бэкенд часть веб-сайта
-СкриптыБД - PSql скрипты для создания базы данных и вставкой тестовых данных
-
-Технологии
-git html5 css react ASP.NET
-Авторы
+# Авторы
 Метелев Д.А.
-
-Функциональность
-Добавление товаров в корзину
-Просмотр заказов клиента
-Редактирование заказов
-Авторизация с помощью JWT
-Личный кабинет 
-Просмотр отчётности
+# Функциональность
+Добавление товаров в корзину <br>
+Просмотр заказов <br>
+Изменение статуса заказов <br>
+Авторизация с помощью JWT <br>
+Личный кабинет<br>
+Отчётность<br>
