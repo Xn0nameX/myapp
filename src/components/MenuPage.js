@@ -5,19 +5,27 @@ import './MainPage.css';
 import logo from './icon_kafe.png';
 import cartIcon from './korzina.png';
 import latteImage from './latte.jpg';
+import kapuchinoImage from './kapuchino.jpg';
+import americanoImage from './americano.jpg';
+import espressoImage from './espresso.jpg';
+import mokkoImage from './mokko.jpg';
+import cheescakeImage from './cheescake.jpeg';
+import kryasanImage from './kryasan.jpg';
+import fruitsalatImage from './fruit_salat.png';
+import pancakeImage from './pancake.jpg';
 import { Link , useNavigate } from 'react-router-dom';
 import { useAuth } from './AuthContext';
 import LoginPage from './LoginPage';
 const menuItems = [
   { id: 1, name: 'Кофе Латте', description: 'Нежный латте с великолепным ароматом',price: 99, image: latteImage },
-  { id: 2, name: 'Капучино', description: 'Ароматный капучино с пышной пенкой',price: 89, image: latteImage },
-  { id: 3, name: 'Американо', description: 'Крепкий американо с насыщенным вкусом',price: 69, image: latteImage },
-  { id: 4, name: 'Эспрессо', description: 'Классическое эспрессо для настоящих ценителей',price: 89, image: latteImage },
-  { id: 5, name: 'Мокко', description: 'Восхитительный мокко с добавлением шоколада',price: 100, image: latteImage },
-  { id: 6, name: 'Чизкейк', description: 'Нежный чизкейк с сочными ягодами',price: 120, image: latteImage },
-  { id: 7, name: 'Круассан с лососем', description: 'Ароматный круассан с копчёным лососем',price: 100, image: latteImage },
-  { id: 8, name: 'Фруктовый салат', description: 'Свежий фруктовый салат с мятным соусом',price: 150, image: latteImage },
-  { id: 9, name: 'Панкейки с кленовым сиропом', description: 'Пушистые панкейки с кленовым сиропом',price: 200, image: latteImage },
+  { id: 2, name: 'Капучино', description: 'Ароматный капучино с пышной пенкой',price: 89, image: kapuchinoImage },
+  { id: 3, name: 'Американо', description: 'Крепкий американо с насыщенным вкусом',price: 69, image: americanoImage },
+  { id: 4, name: 'Эспрессо', description: 'Классическое эспрессо для настоящих ценителей',price: 89, image: espressoImage },
+  { id: 5, name: 'Мокко', description: 'Восхитительный мокко с добавлением шоколада',price: 100, image: mokkoImage },
+  { id: 6, name: 'Чизкейк', description: 'Нежный чизкейк с сочными ягодами',price: 120, image: cheescakeImage },
+  { id: 7, name: 'Круассан с лососем', description: 'Ароматный круассан с копчёным лососем',price: 100, image: kryasanImage },
+  { id: 8, name: 'Фруктовый салат', description: 'Свежий фруктовый салат с мятным соусом',price: 150, image: fruitsalatImage },
+  { id: 9, name: 'Панкейки с кленовым сиропом', description: 'Пушистые панкейки с кленовым сиропом',price: 200, image: pancakeImage },
 ];
 function MenuPage() {
   const [cartItems, setCartItems] = useState([]);
