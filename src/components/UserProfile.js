@@ -124,7 +124,7 @@ function UserProfile() {
         <ul>
           {userOrders.map((order) => (
             <li key={order.orderId}>
-              Заказ {order.orderId}
+              ID заказа {order.orderId}
               <span
                 className={`order-details ${orderStates[order.orderId] ? 'open' : ''}`}
                 onClick={() => toggleOrder(order.orderId)}
