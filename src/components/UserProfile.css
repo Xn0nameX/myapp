@@ -12,4 +12,42 @@
     /* Стили для блоков с информацией о пользователе и заказами */
     width: 45%;
   }
+  .user-main {
+    /* Стили для основного содержимого страницы личного кабинета */
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
   
+  .user-info,
+  .user-orders {
+    /* Стили для блоков с информацией о пользователе и заказами */
+    width: 45%;
+    color: #000;
+  }
+  
+  /* Настройка шрифта и цвета текста для заголовка */
+  .user-main h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  /* Настройка шрифта и цвета текста для текста о пользователе */
+  .user-info p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Настройка шрифта и цвета текста для номеров заказов */
+  .user-orders li {
+    color: #000;
+  }
+  
+  /* Настройка шрифта и цвета текста для содержимого заказов */
+  .user-orders li div {
+    font-size: 14px;
+    color: #666;
+  }
